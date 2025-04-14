@@ -52,3 +52,16 @@ Table shows the Average Novel Accuracy of few-shot methods over 11 datasets. Hig
 | MMA  |  76.80 |
 | Ours (SLAC)  | 78.69  |
 | **Ours (TLAC)**  |  **83.44** |
+
+## Citation
+
+If you find this work helpful for your research, please consider citing:
+
+```
+@article{munir2025tlac,
+  title={TLAC: Two-stage LMM Augmented CLIP for Zero-Shot Classification},
+  author={Munir, Ans and Qureshi, Faisal Z and Khan, Muhammad Haris and Ali, Mohsen},
+  journal={arXiv preprint arXiv:2503.12206},
+  year={2025}
+}
+```
