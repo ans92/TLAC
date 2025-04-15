@@ -53,6 +53,10 @@ Table shows the Average Novel Accuracy of few-shot methods over 11 datasets. Hig
 | Ours (SLAC)  | 78.69  |
 | **Ours (TLAC)**  |  **83.44** |
 
+## Installation
+
+For installation and other package requirements, please follow the instructions detailed in [INSTALL.md](https://github.com/ans92/TLAC/blob/main/docs/INSTALL.md).
+
 ## Citation
 
 If you find this work helpful for your research, please consider citing:
