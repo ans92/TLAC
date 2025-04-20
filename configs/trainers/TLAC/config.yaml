@@ -1,0 +1,14 @@
+DATALOADER:
+  TRAIN_X:
+    BATCH_SIZE: 4
+  TEST:
+    BATCH_SIZE: 16
+  NUM_WORKERS: 0
+
+
+TRAINER:
+  TLAC:
+    CTX_INIT: "a photo of a"
+    PREC: "fp16"
+    
+    
