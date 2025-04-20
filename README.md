@@ -19,39 +19,119 @@ _______
 
 ## Results
 
-### Training-Free methods
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <h3>Training-Free methods</h3>
+      <p>Table shows the Average Accuracy of Training-Free methods over 13 datasets. Higher results are better and shown in bold.</p>
 
-Table shows the Average Accuracy of Training-Free methods over 13 datasets. Higher results are better and shown in bold.
-
-| Name  | Average Accuracy |
-| ------------- | ------------- |
-| CLIP-S   | 69.9  |
-| CLIP-DS  | 71.6  |
-| CuPL  | 75.2  |
-| D-CLIP    | 71.7  |
-| Waffle  | 71.7  |
-| MPVR (Mix)  | 72.9  |
-| MPVR (GPT)  | 73.9  |
-| Ours (SLAC)  | 79.4  |
-| **Ours (TLAC)**  |  **83.6** |
-
-### Base-to-Novel Generalization methods
-
-Table shows the Average Novel Accuracy of few-shot methods over 11 datasets. Higher results are better and shown in bold.
-
-| Name  | Average Novel Accuracy |
-| ------------- | ------------- |
-| CLIP  | 74.22  |
-| CoOp  | 63.22  |
-| Co-CoOp   | 71.69  |
-| ProDA   | 72.30  |
-| KgCoOp  |  73.60 |
-| MaPLe  | 75.14  |
-| LASP  |  74.90 |
-| RPO  | 75.00  |
-| MMA  |  76.80 |
-| Ours (SLAC)  | 78.69  |
-| **Ours (TLAC)**  |  **83.44** |
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Average Accuracy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CLIP-S</td>
+      <td>69.9</td>
+    </tr>
+    <tr>
+      <td>CLIP-DS</td>
+      <td>71.6</td>
+    </tr>
+    <tr>
+      <td>CuPL</td>
+      <td>75.2</td>
+    </tr>
+    <tr>
+      <td>D-CLIP</td>
+      <td>71.7</td>
+    </tr>
+    <tr>
+      <td>Waffle</td>
+      <td>71.7</td>
+    </tr>
+    <tr>
+      <td>MPVR (Mix)</td>
+      <td>72.9</td>
+    </tr>
+    <tr>
+      <td>MPVR (GPT)</td>
+      <td>73.9</td>
+    </tr>
+    <tr>
+      <td>Ours (SLAC)</td>
+      <td>79.4</td>
+    </tr>
+    <tr>
+      <td><strong>Ours (TLAC)</strong></td>
+      <td><strong>83.6</strong></td>
+    </tr>
+  </tbody>
+</table>
+    </td>
+    <td valign="top" width="50%">
+      <h3>Base-to-Novel Generalization methods</h3>
+      <p>Table shows the Average Novel Accuracy of few-shot methods over 11 datasets. Higher results are better and shown in bold.</p>
+      <table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Average Novel Accuracy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CLIP</td>
+      <td>74.22</td>
+    </tr>
+    <tr>
+      <td>CoOp</td>
+      <td>63.22</td>
+    </tr>
+    <tr>
+      <td>Co-CoOp</td>
+      <td>71.69</td>
+    </tr>
+    <tr>
+      <td>ProDA</td>
+      <td>72.30</td>
+    </tr>
+    <tr>
+      <td>KgCoOp</td>
+      <td>73.60</td>
+    </tr>
+    <tr>
+      <td>MaPLe</td>
+      <td>75.14</td>
+    </tr>
+    <tr>
+      <td>LASP</td>
+      <td>74.90</td>
+    </tr>
+    <tr>
+      <td>RPO</td>
+      <td>75.00</td>
+    </tr>
+    <tr>
+      <td>MMA</td>
+      <td>76.80</td>
+    </tr>
+    <tr>
+      <td>Ours (SLAC)</td>
+      <td>78.69</td>
+    </tr>
+    <tr>
+      <td><strong>Ours (TLAC)</strong></td>
+      <td><strong>83.44</strong></td>
+    </tr>
+  </tbody>
+</table>
+    </td>
+  </tr>
+</table>
 
 ## Environment setup and code installation
 
@@ -60,6 +140,10 @@ For setting up the environment and code, please follow the instructions in [INST
 ## Dataset preparation
 
 To prepare the datasets, please follow the instruction in [DATASETS.md](https://github.com/ans92/TLAC/blob/main/docs/DATASETS.md)
+
+## Model Running
+
+To run the model, please follow the instructions in [RUN.md](https://github.com/ans92/TLAC/blob/main/docs/RUN.md)
 
 ## Citation
 
@@ -73,3 +157,11 @@ If you find this work helpful for your research, please consider citing:
   year={2025}
 }
 ```
+
+## Contact
+
+If you have any questions, please create an issue on this repository or contact at [msds20033@itu.edu.pk](mailto:msds20033@itu.edu.pk)
+
+## Acknowledgements
+
+This code is based on [MaPLe](https://github.com/muzairkhattak/multimodal-prompt-learning/tree/main). We thank the authors for their work. If you use our code, please also consider citing their work as well.
