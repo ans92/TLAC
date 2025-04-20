@@ -3,7 +3,7 @@
 #cd ../..
 
 # custom config
-DATA="/home/ans/multimodal-prompt-learning/data/"
+DATA="path-to-data/"
 TRAINER=TLAC
 
 GEMINI_MODEL_ID_1="models/gemini-1.5-flash-latest" # For SLAC and first step of TLAC
